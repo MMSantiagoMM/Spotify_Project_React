@@ -7,7 +7,6 @@ body, html {
   color: #1d1d1f; 
 }
 
-/* Establece el estilo para el contenedor principal de la aplicación */
 .app {
   min-height: 100vh; 
   display: flex;

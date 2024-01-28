@@ -13,7 +13,6 @@ const App = () => {
   const [theme, setTheme] = useState('light');
   const audioRef = useRef(null);
 
-  // IDs de los artistas
   const pinkFloydArtistID = '0k17h0D3J5VfsdmQ1iZtE9';
   const bobMarleyArtistID = '2QsynagSdAqZj3U9HgDzjD'; 
 
@@ -26,7 +25,7 @@ const App = () => {
 
   useEffect(() => {
     if (accessToken && tokenType) {
-      // Suponiendo que queremos las 10 primeras canciones de cada artista
+      
       getTopTracksOfArtists([pinkFloydArtistID, bobMarleyArtistID], tokenType, accessToken, setAllTracks, 10);
     }
   }, [accessToken, tokenType]);
