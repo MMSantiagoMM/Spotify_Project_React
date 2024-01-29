@@ -70,9 +70,9 @@ const App = () => {
   return (
     <div className={`app ${theme}`}>
       <div className="navbar">
-        Spotify player
+        <h1>Spotify player</h1>
         <button onClick={toggleTheme} className="theme-toggle-btn">
-          {theme === 'light' ? 'Modo Noche' : 'Modo Día'}
+          {theme === 'light' ? 'Night mode' : 'Light'}
         </button>
       </div>
 

@@ -23,6 +23,11 @@ body, html {
   font-weight: bold;
 }
 
+.navbar h1 {
+  font-style: italic;
+  color: red;
+}
+
 .main-content {
   flex: 1; 
   padding: 24px; 
